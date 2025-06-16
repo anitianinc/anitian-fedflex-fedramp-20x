@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://anitian.com">
-     <img src="images/Anitian Registered Logo - Black.svg" awidth="100%">
+     <img src="images/Anitian Registered Logo - Black.png" awidth="100%">
    </a>
 </p>
 
