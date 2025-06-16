@@ -60,14 +60,14 @@ Additionally it collects evidence for each KSI and runs automated pass/fail test
 ### FedFlex Starter Auditor Login
 An auditor login designed for the 20x KSIs enables assessors to review up-to-date evidence, leave comments, and request additional evidence as needed. 
 
-![Auditor View] (images/auditor_view.png)
+![Auditor View](http://images/auditor_view.png)
 
 ### Evidence Collection
 The global document upload feature in FedFlex Starter allows customers to upload all relevant evidence such as documents, policies, architecture diagrams, and more, in one step. Our AI assistants handle the rest: they analyze, process, evaluate, and map the uploaded content to the appropriate KSIs. Once complete, they provide an overview of which KSIs have been covered and identify any additional evidence that may still be needed. 
 
-![Evidence Collection] (images/evidence_collection.png)
+![Evidence Collection](http://images/evidence_collection.png)
 
 ### Automated KSI Validation
 Automated rule evaluations are enabled by default for most KSIs, providing a clear view of what is currently compliant and what still requires attention.
 
-![Automated Rule Evaluations] (automated_KSI_validation.png)
+![Automated Rule Evaluations](http://automated_KSI_validation.png)
