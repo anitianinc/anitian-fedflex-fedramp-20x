@@ -27,7 +27,7 @@ Our draft submission includes:
 
 | File | Description |
 |----------|----------|
-| [FedFlex Starter Package Examples (JSON)](Anitian_Evidence_Objects.json)    | 2 Examples of Evidence Objects from Machine Readable Assessment Package  |
+| [FedFlex Starter Package Examples (JSON)](Anitian_Evidence_Objects.json)    | Examples of Evidence Objects from Machine Readable Assessment Package  |
 | [Anitian 20x Schema (JSON)](Anitian_20x_Schema.json)    |  Data Schema for Machine Readable Assesment Package |
 
 
