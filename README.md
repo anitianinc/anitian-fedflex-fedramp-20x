@@ -58,12 +58,12 @@ Additionally it collects evidence for each KSI and runs automated pass/fail test
 ## Anitian FedFlex Starter in Action
 
 ### FedFlex Starter "Auditor View"
-An auditor login designed for the 20x KSIs enables assessors to review up-to-date evidence, leave comments, and request additional evidence as needed. 
+An auditor login designed for the 20x KSIs enables assessors to review up-to-date evidence, leave comments, and request additional evidence as needed. An API is also available for auditors to download evidence for integration into their own systems. 
 
 ![FedFlex Starter Auditor Login](images/auditor_view.png)
 
-### Evidence Collection
-The global document upload feature in FedFlex Starter allows customers to upload all relevant evidence such as documents, policies, architecture diagrams, and more, in one step. Our AI assistants handle the rest: they analyze, process, evaluate, and map the uploaded content to the appropriate KSIs. Once complete, they provide an overview of which KSIs have been covered and identify any additional evidence that may still be needed. 
+### Automated Evidence Collection
+Wherever possible, evidence is automatically collected, but for evidence that is not progammatically available, FedFlex Starter allows customers to upload additional relevant evidence such as documents, policies, architecture diagrams, and more. Our AI assistants handle the rest: they analyze, process, evaluate, and map the uploaded content to the appropriate KSIs. Once complete, they provide an overview of which KSIs have been covered and identify any additional evidence that may still be needed. 
 
 ![Evidence Collection](images/evidence_collection.png)
 
