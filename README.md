@@ -43,21 +43,21 @@ Taken together, these capabilities reflect Anitian’s deep experience in FedRAM
 
 
 ## 3PAO Review 
-A-LIGN is our 3PAO partner and will conduct the final 3PAO assessment. We have worked closely with them throughout the draft submission process, so they are familiar with all the evidence collected. They will use the Auditor view in our FedFlex Starter product and will verify their assessment using a digital hash signature.   
+A-LIGN is our 3PAO partner and will conduct the final 3PAO assessment. We have worked closely with them throughout the draft submission process, so they are familiar with all the evidence collected. They will use the Auditor View in our FedFlex Starter product and will verify their assessment using a digital hash signature.   
 
 
 ## Continuous Reporting on KSIs 
-Anitian will use our FedFlex Starter product to provide continuous reporting on KSI validations. Designed specifically for the FedRAMP 20x Pilot, our FedFlex Starter AI agent sifts through all documents you upload and automatically:
+Anitian will use our FedFlex Starter product to provide continuous reporting on KSI validations. Designed specifically for the FedRAMP 20x Pilot, our FedFlex Starter AI agent sifts through all uploaded documents and automatically:
 - Maps that evidence to the correct control
 - Extracts and summarizes the evidence provided
-- Evaluates if this evidence fully covers this control or if other evidence might still be required
+- Evaluates if evidence fully covers the control or if other evidence might still be required
 - Produces all metadata required for auditor review
 
 Additionally it collects evidence for each KSI and runs automated pass/fail tests. For KSIs requiring manual evidence, documents are uploaded directly to the FedFlex Starter dashboard for auditor review. While both our 3PAO partners and customers will review evidence within the platform, we can also generate a JSON file for external review if needed.
 
 ## Anitian FedFlex Starter in Action
 
-### FedFlex Starter Auditor Login
+### FedFlex Starter "Auditor View"
 An auditor login designed for the 20x KSIs enables assessors to review up-to-date evidence, leave comments, and request additional evidence as needed. 
 
 ![FedFlex Starter Auditor Login](images/auditor_view.png)
