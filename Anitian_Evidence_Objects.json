@@ -1,0 +1,75 @@
+{
+  "framework": "FedRAMP 20x",
+  "controls": [
+    {
+      "name": "KSI-MLA-4",
+      "description": "Perform authenticated vulnerability scanning on information resources",
+      "controlFamily": {
+        "id": "KSI-MLA",
+        "name": "Monioring, Logging and Auditing",
+        "description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes.",
+      },
+      "ruleEvaluations": [
+        {
+          "id": "guardduty-enabled-centralized",
+          "name": "Guardduty is enabled",
+          "description": "Checks if Amazon GuardDuty is enabled in your AWS account and AWS Region. If you provide an AWS account for centralization, the rule evaluates the GuardDuty results in the centralized account. The rule is COMPLIANT when GuardDuty is enabled.",
+          "lastRun": "2025-06-02T11:28:55Z",
+          "resources": [
+            {
+              "id": "90234897342",
+              "name": "Anitian FedFlex",
+              "type": "automated",
+              "system": "GuardDuty",
+              "region": "us-central1",
+              "result": "COMPLIANT"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ARTIFACT_SCANS",
+          "collectedDate": "2025-06-02T11:28:55.738705",
+          "description": "This evidence shows that all artifact storage repositories have vulnerability scanning enabled.",
+          "system": "Artifact Storage",
+          "collectionType": "AUTOMATED",
+          "url": "redacted",
+          "evidenceType": "json"
+        }
+      ],
+      "auditStatus": {
+        "status": "COMPLIANT",
+        "auditor": "Jane Doe",
+        "lastUpdatedTimestamp": "2025-06-10T09:00:00Z",
+        "auditor_validation": "sha256:abc1234567890fedcba"
+      }
+    },
+    {
+      "name": "KSI-TPR-4",
+      "description": "Monitor third party software information resources for upstream vulnerabilities, with contractual notification requirements or active monitoring services",
+      "controlFamily": {
+        "id": "KSI-TPR",
+        "name": "Third Party Information Resources",
+        "description": "A secure cloud service offering will understand, monitor, and manage supply chain risks from third-party information resources.",
+      },
+      "evidence": [
+        {
+          "id": "ASSURED_WORKLOADS",
+          "collectedDate": "2025-06-02T11:28:55.738705",
+          "description": "The assured workloads complianceStatus shows any active violations that apply to the workload.",
+          "system": "Assured Workloads",
+          "collectionType": "AUTOMATED",
+          "url": "redacted",
+          "evidenceType": "json"
+        }
+      ],
+      "auditStatus": {
+        "status": "COMPLIANT",
+        "auditor": "Jane Doe",
+        "lastUpdatedTimestamp": "2025-06-10T09:10:00Z",
+        "auditor_validation": "sha256:fedcba0987654321"
+      }
+    }
+  ]
+}
