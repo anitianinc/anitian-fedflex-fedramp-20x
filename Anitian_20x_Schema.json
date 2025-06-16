@@ -47,6 +47,5 @@
         "auditor_validation": "string - signed hash to validate auditor"
       }
     }
-  ],
-  "auditStatus": "string - audit status of control, can be COMPLIANT, PARTIAL, NON_COMPLIANT"
+  ]
 }
