@@ -6,7 +6,7 @@ This is a pre-audit submission as we continue to engage with A-LIGN, our 3PAO pa
 ## Anitian FedFlex Starter 
 Anitian’s FedFlex Starter is an AI-powered compliance automation platform purpose-built to help SaaS companies achieve FedRAMP 20x authorization faster, with more flexibility, and with greater confidence.  
 
-With a track record of helping over 60 SaaS providers achieve a FedRAMP Marketplace listing, Anitian combines pre-engineered security infrastructure, agentic AI, and expert advisory services to accelerate time-to-compliance without compromising on rigor.  
+With a track record of helping SaaS providers achieve a FedRAMP Marketplace listing, Anitian combines pre-engineered security infrastructure, agentic AI, and expert advisory services to accelerate time-to-compliance without compromising on rigor.  
 
 FedFlex Starter includes:  
 - Pre-configured platform for 20x compliance  
