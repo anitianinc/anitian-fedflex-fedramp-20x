@@ -9,24 +9,6 @@
         "name": "Monioring, Logging and Auditing",
         "description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes.",
       },
-      "ruleEvaluations": [
-        {
-          "id": "guardduty-enabled-centralized",
-          "name": "Guardduty is enabled",
-          "description": "Checks if Amazon GuardDuty is enabled in your AWS account and AWS Region. If you provide an AWS account for centralization, the rule evaluates the GuardDuty results in the centralized account. The rule is COMPLIANT when GuardDuty is enabled.",
-          "lastRun": "2025-06-02T11:28:55Z",
-          "resources": [
-            {
-              "id": "90234897342",
-              "name": "Anitian FedFlex",
-              "type": "automated",
-              "system": "GuardDuty",
-              "region": "us-central1",
-              "result": "COMPLIANT"
-            }
-          ]
-        }
-      ],
       "evidence": [
         {
           "id": "ARTIFACT_SCANS",
