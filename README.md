@@ -5,7 +5,7 @@
 </p>
 
 
-Anitian is excited to participate in the FedRAMP 20x pilot. We applaud the iterative, transparent, and collaborative approach of the PMO and look forward to working together to deliver innovative solutions for the US government.  
+Anitian is excited to participate in the FedRAMP 20x pilot. We applaud the iterative, transparent, and collaborative approach of the PMO and look forward to working together to deliver innovative solutions for the U.S. government.  
 
 This is a pre-audit submission as we continue to engage with A-LIGN, our 3PAO partner, to ensure we deliver a model that is repeatable for all CSPs seeking FedRAMP low authorization.  
 
