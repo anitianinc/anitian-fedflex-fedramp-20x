@@ -40,7 +40,7 @@ Our final assessment is available to the FedRAMP PMO through our Insights platfo
 | File | Description |
 |----------|----------|
 | [FedFlex Assessment File](Anitian_20x_Attestation_Official.json)    | Final Public Assessment Package  |
-| [Anitian 20x Schema](Anitian_Evidence_Objects.json)    |  Data Schema for Machine Readable Assessment Package |
+| [Anitian 20x Schema](Anitian_20x_Schema.json)    |  Data Schema for Machine Readable Assessment Package |
 | [A-LIGN Attestation Letter](A-LIGN_Attestation_Letter-Anitian_FedRAMP_20x.pdf)    |  3PAO Partner A-LIGN's Attestation Letter|
 
 
