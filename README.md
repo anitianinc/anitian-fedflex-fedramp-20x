@@ -40,7 +40,7 @@ Our final assessment is available to the FedRAMP PMO through our Insights platfo
 | File | Description |
 |----------|----------|
 | [FedFlex Assessment File](Anitian_20x_Attestation_Official.json)    | Final Public Assessment Package  |
-| [Anitian 20x Schema](Anitian_20x_Schema.json)    |  Data Schema for Machine Readable Assessment Package |
+| [Anitian 20x Schema](Anitian_Evidence_Objects.json)    |  Data Schema for Machine Readable Assessment Package |
 | [A-LIGN Attestation Letter](A-LIGN_Attestation_Letter-Anitian_FedRAMP_20x.pdf)    |  3PAO Partner A-LIGN's Attestation Letter|
 
 
@@ -88,6 +88,6 @@ Wherever possible, evidence is automatically collected, but for evidence that is
 ![Evidence Collection](images/evidence_collection.png)
 
 ### Automated KSI Validation
-Automated rule evaluations are enabled by default for most KSIs, providing a clear view of what is currently compliant and what still requires attention.
+We have 143 rules mapped to KSIs that can be automatically evaluated. We will continue to expand and enhance automation to support validation of additional KSIs going forward.
 
 ![Automated KSI Validation](images/automated_KSI_validation.png)
