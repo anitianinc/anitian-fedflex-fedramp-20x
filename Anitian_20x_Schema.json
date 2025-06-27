@@ -1,0 +1,52 @@
+{
+  "framework": "string",
+  "controls": [
+    {
+      "id": "string - unique ID of the control",
+      "name": "string - name of the control",
+      "description": "string - description of the control",
+      "controlFamily": {
+        "id": "string - unique ID of the control family",
+        "name": "string - name of the control family",
+        "description": "string - description of the control family",
+        "note": "string - optional: Note to assessor"
+      },
+      "ruleEvaluations": [
+        {
+          "id": "string - unique id of the rule",
+          "name": "string - name of the rule",
+          "description": "string - description of the rule",
+          "lastRun": "dateTime - last time the rule was run",
+          "resources": [
+            {
+              "id": "string - unique id of the evluated resource",
+              "name": "string - name of the evalutated resource",
+              "type": "string - type of evaluated resource",
+              "system": "string - system the evaluated resource is deployed on",
+              "region": "string - region the evaluated resource is located in",
+              "result": "string - result of rule execution. Can be COMPLIANT or NOT_COMPLIANT"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "string - unique id for evidence",
+          "collectedDate": "dateTime - date the evidence was collected",
+          "description": "string - description of the evidence",
+          "system": "string - system the evidece was collected from",
+          "collectionType": "string - how the evidence was collected. Can be AUTOMATED or MANUAL",
+          "url": "string - link to the evidence object",
+          "evidenceType": "string - filetype of evidence, so we know how to display and process it"
+        }
+      ],
+      "auditStatus": {
+        "status": "string - can be COMPLIANT, PARTIAL, NON_COMPLIANT",
+        "auditor": "string - Name of auditor",
+        "lastUpdatedTimestamp": "dateTime - time at which this evidence was last evaluated",
+        "auditor_validation": "string - signed hash to validate auditor"
+      }
+    }
+  ],
+  "auditStatus": "string - audit status of control, can be COMPLIANT, PARTIAL, NON_COMPLIANT"
+}
