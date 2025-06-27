@@ -1,0 +1,2419 @@
+{
+    "framework": "FedRAMP 20x",
+    "controls": [
+        {
+            "name": "KSI-CED-01",
+            "description": "Ensure all employees receive security awareness training.",
+            "controlFamily": {
+                "id": "KSI-CED",
+                "name": "Cybersecurity Education",
+                "description": "A secure cloud service provider will continuously educate their employees on cybersecurity measures, testing them regularly to ensure their knowledge is satisfactory"
+            },
+            "evidence": [
+                {
+                    "id": "TRAINING_RECORDS",
+                    "name": "KSI-CED-01_Anitian_Training_Records_2024.csv",
+                    "description": "",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:11.191Z"
+                    },
+                    "system": "Cybersecurity Education",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CED-01?ksi=KSI-CED&name=Cybersecurity+Education&ksiDesc=A+secure+cloud+service+provider+will+continuously+educate+their+employees+on+cybersecurity+measures,+testing+them+regularly+to+ensure+their+knowledge+is+satisfactory&description=Ensure+all+employees+receive+security+awareness+training.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=TRAINING_RECORDS",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T17:49:08.769Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-341228795441404624"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CED-02",
+            "description": "Require role-specific training for high-risk roles, including at least roles with privileged access.",
+            "controlFamily": {
+                "id": "KSI-CED",
+                "name": "Cybersecurity Education",
+                "description": "A secure cloud service provider will continuously educate their employees on cybersecurity measures, testing them regularly to ensure their knowledge is satisfactory"
+            },
+            "evidence": [
+                {
+                    "id": "SOC_TRAINING_RECORDS_2025",
+                    "name": "KSI-CED-02_Anitian_SOC_Training_Records_2025.csv",
+                    "description": "",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:11.191Z"
+                    },
+                    "system": "Cybersecurity Education",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CED-02?ksi=KSI-CED&name=Cybersecurity+Education&ksiDesc=A+secure+cloud+service+provider+will+continuously+educate+their+employees+on+cybersecurity+measures,+testing+them+regularly+to+ensure+their+knowledge+is+satisfactory&description=Require+role-specific+training+for+high-risk+roles,+including+at+least+roles+with+privileged+access.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=SOC_TRAINING_RECORDS_2025",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T17:50:57.287Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-935398979385421230"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CMT-01",
+            "description": "Log and monitor system modifications.",
+            "controlFamily": {
+                "id": "KSI-CMT",
+                "name": "Change Management",
+                "description": "A secure cloud service provider will ensure that all system changes are properly documented and configuration baselines are updated accordingly."
+            },
+            "evidence": [
+                {
+                    "id": "DEPLOY_PIPELINES",
+                    "name": "deploy pipelines for the infrastructure",
+                    "description": "this evidence shows the pipelines that are running to deploy the infrastructure for the application",
+                    "collectedDate": "2025-06-18T18:39:52.969000+00:00",
+                    "system": "ADO Pipelines",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CMT-01?ksi=KSI-CMT&name=Change+Management&ksiDesc=A+secure+cloud+service+provider+will+ensure+that+all+system+changes+are+properly+documented+and+configuration+baselines+are+updated+accordingly.&description=Log+and+monitor+system+modifications.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DEPLOY_PIPELINES",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T12:22:14.296Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-5323059249234544669"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CMT-02",
+            "description": "Execute changes through redeployment of version controlled immutable resources rather than direct modification wherever possible.",
+            "controlFamily": {
+                "id": "KSI-CMT",
+                "name": "Configuration Management",
+                "description": "A secure cloud service provider will ensure that all system changes are properly documented and configuration baselines are updated accordingly."
+            },
+            "evidence": [
+                {
+                    "id": "DEPLOY_PIPELINES",
+                    "name": "deploy pipelines for the infrastructure",
+                    "description": "this evidence shows the pipelines that are running to deploy the infrastructure for the application",
+                    "collectedDate": "2025-06-18T18:39:52.969000+00:00",
+                    "system": "ADO Pipelines",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CMT-02?ksi=KSI-CMT&name=Change+Management&ksiDesc=A+secure+cloud+service+provider+will+ensure+that+all+system+changes+are+properly+documented+and+configuration+baselines+are+updated+accordingly.&description=Execute+changes+through+redeployment+of+version-controlled+immutable+resources+rather+than+direct+modification+wherever+possible.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DEPLOY_PIPELINES",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T12:22:14.296Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-5323059249234544669"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CMT-03",
+            "description": "Implement automated testing and validation of changes prior to deployment.",
+            "controlFamily": {
+                "id": "KSI-CMT",
+                "name": "Configuration Management",
+                "description": "A secure cloud service provider will ensure that all system changes are properly documented and configuration baselines are updated accordingly."
+            },
+            "evidence": [
+                {
+                    "id": "AUTOMATED_TESTING_PIPELINES",
+                    "name": "Automated testing pipelines",
+                    "description": "this evidence shows the automated running of the tests and validation of the code",
+                    "collectedDate": "2025-06-18T18:39:53.598000+00:00",
+                    "system": "ADO Pipelines",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CMT-03?ksi=KSI-CMT&name=Change+Management&ksiDesc=A+secure+cloud+service+provider+will+ensure+that+all+system+changes+are+properly+documented+and+configuration+baselines+are+updated+accordingly.&description=Implement+automated+testing+and+validation+of+changes+prior+to+deployment.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=AUTOMATED_TESTING_PIPELINES",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T12:23:16.059Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-6630967088744809479"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CMT-04",
+            "description": "Have a documented change management procedure.",
+            "controlFamily": {
+                "id": "KSI-CMT",
+                "name": "Change Management",
+                "description": "A secure cloud service provider will ensure that all system changes are properly documented and configuration baselines are updated accordingly."
+            },
+            "evidence": [
+                {
+                    "id": "DOCUMENTS_KSI-CMT-04_CM_PROCEDURES_V0.3",
+                    "name": "KSI-CMT-04_Anitian CM Procedures_v0.3",
+                    "description": "This evidence provides a detailed, documented change management procedure that outlines how system changes are proposed, reviewed, approved, implemented, and recorded, fulfilling the requirement for a documented change management procedure.",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:11.191Z"
+                    },
+                    "system": "Change Management",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CMT-04?ksi=KSI-CMT&name=Change+Management&ksiDesc=A+secure+cloud+service+provider+will+ensure+that+all+system+changes+are+properly+documented+and+configuration+baselines+are+updated+accordingly.&description=Have+a+documented+change+management+procedure.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DOCUMENTS_KSI-CMT-04_CM_PROCEDURES_V0.3",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T12:25:25.391Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-9013119234997690717"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CMT-05",
+            "description": "Evaluate the risk and potential impact of any change.",
+            "controlFamily": {
+                "id": "KSI-CMT",
+                "name": "Change Management",
+                "description": "A secure cloud service provider will ensure that all system changes are properly documented and configuration baselines are updated accordingly."
+            },
+            "evidence": [
+                {
+                    "id": "PLATFORM_SDLC",
+                    "name": "SDLC Documentation",
+                    "description": "This documentation outlines the for Anitian which uses a consistent, risk-informed approach for applying changes and security patches.",
+                    "collectedDate": "2025-06-18T18:39:56.070000+00:00",
+                    "system": "Operations",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CMT-05?ksi=KSI-CMT&name=Change+Management&ksiDesc=A+secure+cloud+service+provider+will+ensure+that+all+system+changes+are+properly+documented+and+configuration+baselines+are+updated+accordingly.&description=Evaluate+the+risk+and+potential+impact+of+any+change.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=PLATFORM_SDLC",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T19:32:02.668Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-4521339665507435578"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CNA-01",
+            "description": "Configure ALL information resources to limit inbound and outbound traffic.",
+            "controlFamily": {
+                "id": "KSI-CNA",
+                "name": "Cloud Native Architecture",
+                "description": "A secure cloud service offering will use cloud native architecture and design principles to enforce and enhance the Confidentiality, Integrity and Availability of the system."
+            },
+            "evidence": [
+                {
+                    "id": "NGFW_POLICIES",
+                    "name": "Firewall policy definitions applied to the network",
+                    "description": "This evidence shows all firewall policies on the system network that are active and enforce limiting inbound and outbound traffic based on country codes, destinations, traffic type.",
+                    "collectedDate": "2025-06-12T23:14:14.751000+00:00",
+                    "system": "Network Firewall",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-01?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Configure+ALL+information+resources+to+limit+inbound+and+outbound+traffic.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=NGFW_POLICIES",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T19:29:52.427Z"
+                        },
+                        "hash": {
+                            "$numberLong": "1986338346777104642"
+                        }
+                    }
+                },
+                {
+                    "id": "NGFW_RULES",
+                    "name": "Firewall rules limit inbound and outbound traffic",
+                    "description": "This evidence shows all firewall rules on the system network that are active and enforce limiting inbound and outbound traffic by port, direction and source IP.",
+                    "collectedDate": "2025-06-12T23:14:13.257000+00:00",
+                    "system": "Network Firewall",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-01?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Configure+ALL+information+resources+to+limit+inbound+and+outbound+traffic.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=NGFW_RULES",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T19:29:06.811Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-6414614859913559639"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CNA-02",
+            "description": "Design systems to minimize the attack surface and minimize lateral movement if compromised.",
+            "controlFamily": {
+                "id": "KSI-CNA",
+                "name": "Cloud Native Architecture",
+                "description": "A secure cloud service offering will use cloud native architecture and design principles to enforce and enhance the Confidentiality, Integrity and Availability of the system."
+            },
+            "evidence": [
+                {
+                    "id": "ISTIO_DESTINATION_RULES",
+                    "name": "Istio enforcing strict networking policies",
+                    "description": "This document shows the Istio destination rules that limit inbound and inter-pod traffic to specific services, ports and protocols. All services must explicitly enable inbound traffic or the traffic will be denied by the `default-deny-all` policy.",
+                    "collectedDate": "2025-06-19T12:02:06.483000+00:00",
+                    "system": "Istio",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-02?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Design+systems+to+minimize+the+attack+surface+and+minimize+lateral+movement+if+compromised.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ISTIO_DESTINATION_RULES",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T17:10:09.966Z"
+                        },
+                        "hash": {
+                            "$numberLong": "5487575786959418422"
+                        }
+                    }
+                },
+                {
+                    "id": "WORKLOAD_IAM_ROLES",
+                    "name": "Kubernetes Workload GCP IAM Roles",
+                    "description": "This evidence shows the mapping of GKE k8s Service Accounts to their roles assigned in GCP.",
+                    "collectedDate": "2025-06-12T23:17:37.227000+00:00",
+                    "system": "IAM",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-02?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Design+systems+to+minimize+the+attack+surface+and+minimize+lateral+movement+if+compromised.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=WORKLOAD_IAM_ROLES",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T14:30:47.029Z"
+                        },
+                        "hash": {
+                            "$numberLong": "5821882299658340939"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CNA-03",
+            "description": "Use logical networking and related capabilities to enforce traffic flow controls.",
+            "controlFamily": {
+                "id": "KSI-CNA",
+                "name": "Cloud Native Architecture",
+                "description": "A secure cloud service offering will use cloud native architecture and design principles to enforce and enhance the Confidentiality, Integrity and Availability of the system."
+            },
+            "evidence": [
+                {
+                    "id": "PLATFORM_ARCHITECTURE_DIAGRAM",
+                    "name": "Architecture Diagram",
+                    "description": "This evidence shows The architecture diagram for the platform.",
+                    "collectedDate": "2025-06-18T18:39:55.909000+00:00",
+                    "system": "architecture",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-03?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Use+logical+networking+and+related+capabilities+to+enforce+traffic+flow+controls.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=PLATFORM_ARCHITECTURE_DIAGRAM",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:20:55.323Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-4259515057444655791"
+                        }
+                    }
+                },
+                {
+                    "id": "NGFW_POLICIES",
+                    "name": "Firewall policy definitions applied to the network",
+                    "description": "This evidence shows all firewall policies on the system network that are active and enforce limiting inbound and outbound traffic based on country codes, destinations, traffic type.",
+                    "collectedDate": "2025-06-12T23:14:14.751000+00:00",
+                    "system": "Network Firewall",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-03?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Use+logical+networking+and+related+capabilities+to+enforce+traffic+flow+controls.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=NGFW_POLICIES",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T19:29:52.427Z"
+                        },
+                        "hash": {
+                            "$numberLong": "1986338346777104642"
+                        }
+                    }
+                },
+                {
+                    "id": "NGFW_RULES",
+                    "name": "Firewall rules limit inbound and outbound traffic",
+                    "description": "This evidence shows all firewall rules on the system network that are active and enforce limiting inbound and outbound traffic by port, direction and source IP.",
+                    "collectedDate": "2025-06-12T23:14:13.257000+00:00",
+                    "system": "Network Firewall",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-03?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Use+logical+networking+and+related+capabilities+to+enforce+traffic+flow+controls.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=NGFW_RULES",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T19:29:06.811Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-6414614859913559639"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CNA-04",
+            "description": "Use immutable infrastructure with strictly defined functionality and privileges by default.",
+            "controlFamily": {
+                "id": "KSI-CNA",
+                "name": "Cloud Native Architecture",
+                "description": "A secure cloud service offering will use cloud native architecture and design principles to enforce and enhance the Confidentiality, Integrity and Availability of the system."
+            },
+            "evidence": [
+                {
+                    "id": "K8S_GK_NONROOT",
+                    "name": "Gatekeeper enforcing requirement that containers must run as non-root user",
+                    "description": "This document shows the Gatekeeper policy that enforces containers must run as non-root user.",
+                    "collectedDate": "2025-06-18T18:39:58.420000+00:00",
+                    "system": "Gatekeeper",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-04?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Use+immutable+infrastructure+with+strictly+defined+functionality+and+privileges+by+default.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=K8S_GK_NONROOT",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:28:53.542Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4388456120851774406"
+                        }
+                    }
+                },
+                {
+                    "id": "K8S_GK_VOLUMETYPES",
+                    "name": "Gatekeeper enforcing limited volume types on containers",
+                    "description": "This document shows the Gatekeeper policy that enforces restricting mountable volume types to those that align with container immutability.",
+                    "collectedDate": "2025-06-18T18:39:58.316000+00:00",
+                    "system": "Gatekeeper",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-04?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Use+immutable+infrastructure+with+strictly+defined+functionality+and+privileges+by+default.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=K8S_GK_VOLUMETYPES",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:27:36.942Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-3429223933919394736"
+                        }
+                    }
+                },
+                {
+                    "id": "K8S_GK_READONLYFS",
+                    "name": "Gatekeeper enforcing read-only filesystems on containers",
+                    "description": "This document shows the Gatekeeper policy that enforces read-only filesystems for containers; a component of container immutability.",
+                    "collectedDate": "2025-06-18T18:39:58.067000+00:00",
+                    "system": "Gatekeeper",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-04?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Use+immutable+infrastructure+with+strictly+defined+functionality+and+privileges+by+default.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=K8S_GK_READONLYFS",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:24:02.283Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-3880457186629433959"
+                        }
+                    }
+                },
+                {
+                    "id": "K8S_GK_SECCOMP_PROFILE",
+                    "name": "Gatekeeper enforcing requirement that pods define a seccomp profile",
+                    "description": "This document shows the Gatekeeper policy that enforces pods must have a seccomp profile defined and it must be one of the policy-defined values.",
+                    "collectedDate": "2025-06-18T18:39:56.470000+00:00",
+                    "system": "Gatekeeper",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-04?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Use+immutable+infrastructure+with+strictly+defined+functionality+and+privileges+by+default.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=K8S_GK_SECCOMP_PROFILE",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:23:42.102Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-81739045449266642"
+                        }
+                    }
+                },
+                {
+                    "id": "K8S_GK_PRIVILEGED",
+                    "name": "Gatekeeper enforcing privileged mode on containers",
+                    "description": "This document shows the Gatekeeper policy that enforces restricting the ability of any container to enable privileged mode.",
+                    "collectedDate": "2025-06-18T18:39:54.608000+00:00",
+                    "system": "Gatekeeper",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-04?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Use+immutable+infrastructure+with+strictly+defined+functionality+and+privileges+by+default.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=K8S_GK_PRIVILEGED",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:22:55.122Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-1628353868281424626"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CNA-05",
+            "description": "Have denial of service protection.",
+            "controlFamily": {
+                "id": "KSI-CNA",
+                "name": "Cloud Native Architecture",
+                "description": "A secure cloud service offering will use cloud native architecture and design principles to enforce and enhance the Confidentiality, Integrity and Availability of the system."
+            },
+            "evidence": [
+                {
+                    "id": "CLB_CLOUDARMOR",
+                    "name": "Cloud Armor enabled on all public Cloud Load Balancer endpoints",
+                    "description": "This evidence shows all public Cloud Load Balancer endpoints have Cloud Armor policies enabled.",
+                    "collectedDate": "2025-06-12T23:14:11.407000+00:00",
+                    "system": "Cloud Load Balancer",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-05?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Have+denial+of+service+protection.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=CLB_CLOUDARMOR",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T02:28:55.669Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-1664632010243325029"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CNA-06",
+            "description": "Design systems for high availability and rapid recovery.",
+            "controlFamily": {
+                "id": "KSI-CNA",
+                "name": "Cloud Native Architecture",
+                "description": "A secure cloud service offering will use cloud native architecture and design principles to enforce and enhance the Confidentiality, Integrity and Availability of the system."
+            },
+            "evidence": [
+                {
+                    "id": "PLATFORM_SLAS",
+                    "name": "SLA Documentation",
+                    "description": "This documentation outlines the SLAs for the platform that ensure high availability design principles to maximize uptime.",
+                    "collectedDate": "2025-06-18T18:39:54.737000+00:00",
+                    "system": "Architecture",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-06?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=+Design+systems+for+high+availability+and+rapid+recovery.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=PLATFORM_SLAS",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:39:27.037Z"
+                        },
+                        "hash": {
+                            "$numberLong": "9144340966640240443"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-CNA-07",
+            "description": "Ensure cloud-native information resources are implemented based on host provider's best practices and documented guidance.",
+            "controlFamily": {
+                "id": "KSI-CNA",
+                "name": "Cloud Native Architecture",
+                "description": "A secure cloud service offering will use cloud native architecture and design principles to enforce and enhance the Confidentiality, Integrity and Availability of the system."
+            },
+            "evidence": [
+                {
+                    "id": "GCP_BESTPRACTICES",
+                    "name": "Google Cloud Best Practices",
+                    "description": "This evidence shows the documentation for the Google Cloud best practices used.",
+                    "collectedDate": "2025-06-18T18:39:56.339000+00:00",
+                    "system": "Google Cloud",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-CNA-07?ksi=KSI-CNA&name=Cloud+Native+Architecture&ksiDesc=A+secure+cloud+service+offering+will+use+cloud+native+architecture+and+design+principles+to+enforce+and+enhance+the+Confidentiality,+Integrity+and+Availability+of+the+system.&description=Ensure+cloud-native+information+resources+are+implemented+based+on+host+provider%E2%80%99s+best+practices+and+documented+guidance.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=GCP_BESTPRACTICES",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T02:31:12.433Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-8618749050445156315"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-IAM-01",
+            "description": "Enforce multi-factor authentication (MFA) using methods that are difficult to intercept or impersonate (phishing-resistant MFA) for all user authentication.",
+            "controlFamily": {
+                "id": "KSI-IAM",
+                "name": "Identity and Access Management",
+                "description": "A secure cloud service offering will protect user data, control access, and apply zero trust principles."
+            },
+            "evidence": [
+                {
+                    "id": "GOOGLE_WORKSPACE_MFA",
+                    "name": "Google Workspace MFA Documentation",
+                    "description": "This documentation shows the Google Workspace MFA configuration.",
+                    "collectedDate": "2025-06-18T18:39:57.041000+00:00",
+                    "system": "Google Workspace",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-01?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Enforce+multi-factor+authentication+(MFA)+using+methods+that+are+difficult+to+intercept+or+impersonate+(phishing-resistant+MFA)+for+all+user+authentication.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=GOOGLE_WORKSPACE_MFA",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:52:55.276Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4870188078357393603"
+                        }
+                    }
+                },
+                {
+                    "id": "OKTA_MFA",
+                    "name": "OKTA MFA Documentation",
+                    "description": "This documentation shows the OKTA MFA configuration.",
+                    "collectedDate": "2025-06-18T18:39:56.185000+00:00",
+                    "system": "okta",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-01?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Enforce+multi-factor+authentication+(MFA)+using+methods+that+are+difficult+to+intercept+or+impersonate+(phishing-resistant+MFA)+for+all+user+authentication.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=OKTA_MFA",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:52:11.032Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4491551044881687662"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-IAM-02",
+            "description": "Use secure passwordless methods for user authentication and authorization when feasible, otherwise enforce strong passwords with MFA.",
+            "controlFamily": {
+                "id": "KSI-IAM",
+                "name": "Identity and Access Management",
+                "description": "A secure cloud service offering will protect user data, control access, and apply zero trust principles."
+            },
+            "evidence": [
+                {
+                    "id": "GOOGLE_WORKSPACE_PASSWORD",
+                    "name": "Google Workspace Password Policies Documentation",
+                    "description": "This documentation shows the Google Workspace password policies.",
+                    "collectedDate": "2025-06-18T18:39:57.547000+00:00",
+                    "system": "Google Workspace",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-02?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Use+secure+passwordless+methods+for+user+authentication+and+authorization+when+feasible;+otherwise,+enforce+strong+passwords+with+MFA.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=GOOGLE_WORKSPACE_PASSWORD",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:54:16.092Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-8366421475866376777"
+                        }
+                    }
+                },
+                {
+                    "id": "OKTA_PASSWORD",
+                    "name": "OKTA Password Policies Documentation",
+                    "description": "This documentation shows the OKTA password policies.",
+                    "collectedDate": "2025-06-18T18:39:57.324000+00:00",
+                    "system": "okta",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-02?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Use+secure+passwordless+methods+for+user+authentication+and+authorization+when+feasible;+otherwise,+enforce+strong+passwords+with+MFA.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=OKTA_PASSWORD",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:53:59.590Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-4579422381441443800"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-IAM-03",
+            "description": "Enforce appropriately secure authentication methods for non-user accounts and services.",
+            "controlFamily": {
+                "id": "KSI-IAM",
+                "name": "Identity and Access Management",
+                "description": "A secure cloud service offering will protect user data, control access, and apply zero trust principles."
+            },
+            "evidence": [
+                {
+                    "id": "SERVICE_ACCOUNT_KEY_ROTATION_POLICY",
+                    "name": "Service account key rotation policy",
+                    "description": "Documentation on our service account key rotation policy",
+                    "collectedDate": "2025-06-18T18:39:53.751000+00:00",
+                    "system": "IAM",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-03?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Enforce+appropriately+secure+authentication+methods+for+non-user+accounts+and+services.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=SERVICE_ACCOUNT_KEY_ROTATION_POLICY",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:57:16.491Z"
+                        },
+                        "hash": {
+                            "$numberLong": "5922570106799262273"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-IAM-04",
+            "description": "Use a least-privileged, role and attribute-based, and just-in-time security authorization model for all user and non-user accounts and services.",
+            "controlFamily": {
+                "id": "KSI-IAM",
+                "name": "Identity and Access Management",
+                "description": "A secure cloud service offering will protect user data, control access, and apply zero trust principles."
+            },
+            "evidence": [
+                {
+                    "id": "JITGROUPS_POLICIES",
+                    "name": "JITGroups Policies Documentation",
+                    "description": "This documentation shows the policies applying just-in-time access.",
+                    "collectedDate": "2025-06-18T18:39:53.944000+00:00",
+                    "system": "jitgroups",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-04?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Use+a+least-privileged,+role+and+attribute-based,+and+just-in-time+security+authorization+model+for+all+user+and+non-user+accounts+and+services.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=JITGROUPS_POLICIES",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T16:43:51.076Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-112050473856259767"
+                        }
+                    }
+                },
+                {
+                    "id": "IAM_MEMBERS_ORG",
+                    "name": "IAM Role Members for the organization.",
+                    "description": "This evidence shows the role mappings of users.",
+                    "collectedDate": "2025-06-12T23:17:40.110000+00:00",
+                    "system": "IAM",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-04?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Use+a+least-privileged,+role+and+attribute-based,+and+just-in-time+security+authorization+model+for+all+user+and+non-user+accounts+and+services.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=IAM_MEMBERS_ORG",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T16:43:00.823Z"
+                        },
+                        "hash": {
+                            "$numberLong": "3458432090212204937"
+                        }
+                    }
+                },
+                {
+                    "id": "IAM_MEMBERS_PROJECT",
+                    "name": "IAM Role Members for projects.",
+                    "description": "This evidence shows the role mappings of users.",
+                    "collectedDate": "2025-06-12T23:17:39.656000+00:00",
+                    "system": "IAM",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-04?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Use+a+least-privileged,+role+and+attribute-based,+and+just-in-time+security+authorization+model+for+all+user+and+non-user+accounts+and+services.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=IAM_MEMBERS_PROJECT",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T16:40:42.085Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4816918236577777477"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-IAM-05",
+            "description": "Apply zero trust design principles.",
+            "controlFamily": {
+                "id": "KSI-IAM",
+                "name": "Identity and Access Management",
+                "description": "A secure cloud service offering will protect user data, control access, and apply zero trust principles."
+            },
+            "evidence": [
+                {
+                    "id": "ISTIO_MTLS",
+                    "name": "Istio Zero Trust MTLS",
+                    "description": "This documentation shows the default Istio configuration requiring MTLS for all services.",
+                    "collectedDate": "2025-06-18T18:39:56.699000+00:00",
+                    "system": "istio",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-05?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Apply+zero+trust+design+principles.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ISTIO_MTLS",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T16:44:44.198Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4645243588534781818"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-IAM-06",
+            "description": "Automatically disable or otherwise secure accounts with privileged access in response to suspicious activity.",
+            "controlFamily": {
+                "id": "KSI-IAM",
+                "name": "Identity and Access Management",
+                "description": "A secure cloud service offering will protect user data, control access, and apply zero trust principles."
+            },
+            "evidence": [
+                {
+                    "id": "OKTA_THREATINSIGHTS",
+                    "name": "Okta Threatinsights Security",
+                    "description": "This evidence shows the behavior when suspicious activity is detected.",
+                    "collectedDate": "2025-06-18T18:39:54.873000+00:00",
+                    "system": "okta",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-06?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Automatically+disable+or+otherwise+secure+accounts+with+privileged+access+in+response+to+suspicious+activity.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=OKTA_THREATINSIGHTS",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T16:45:35.240Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-6055585544623324920"
+                        }
+                    }
+                },
+                {
+                    "id": "IAM_SCANNER_RUNS",
+                    "name": "IAM Scanner Recent Logs",
+                    "description": "This evidence shows most recent logs generated by the IAM scanner tool, which scans for inactive and suspicious users and disables any found not in compliance.",
+                    "collectedDate": "2025-06-12T23:17:30.114000+00:00",
+                    "system": "IAM Scanner",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-IAM-06?ksi=KSI-IAM&name=Identity+and+Access+Management&ksiDesc=A+secure+cloud+service+offering+will+protect+user+data,+control+access,+and+apply+zero+trust+principles.&description=Automatically+disable+or+otherwise+secure+accounts+with+privileged+access+in+response+to+suspicious+activity.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=IAM_SCANNER_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T16:41:58.664Z"
+                        },
+                        "hash": {
+                            "$numberLong": "6959613867533823152"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-INR-01",
+            "description": "Maintain an incident response plan that is coordinated with contingency planning.",
+            "controlFamily": {
+                "id": "KSI-INR",
+                "name": "Incident Response",
+                "description": "A secure cloud service offering will implement and maintain a documented incident response plan, including coordination with contingency planning."
+            },
+            "evidence": [
+                {
+                    "id": "DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_CONTINGENCY_PLAN",
+                    "name": "Contingency Plan",
+                    "description": "This Contingency Plan documents the processes for defining, maintaining, testing, and updating incident response and recovery capabilities to ensure minimal service disruption and data loss during incidents, fulfilling the requirements to define Recovery Time Objectives (RTO), Recovery Point Objectives (RPO), and to coordinate contingency and incident response planning and testing.",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:37.906Z"
+                    },
+                    "system": "Cloud Service Offering",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-INR-01?ksi=KSI-INR&name=Incident+Reporting&ksiDesc=A+secure+cloud+service+offering+will+document,+report,+and+analyze+security+incidents+to+ensure+regulatory+compliance+and+continuous+security+improvement.&description=Report+incidents+according+to+FedRAMP+requirements+and+cloud+service+provider+policies.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_CONTINGENCY_PLAN",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:14:03.964Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4954554412777813822"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-INR-02",
+            "description": "Maintain a log of incidents and periodically review past incidents for patterns or vulnerabilities.",
+            "controlFamily": {
+                "id": "KSI-INR",
+                "name": "Incident Reporting",
+                "description": "A secure cloud service offering will document, report, and analyze security incidents to ensure regulatory compliance and continuous security improvement."
+            },
+            "evidence": [
+                {
+                    "id": "KUBEBENCH_RESULTS",
+                    "name": "Kube-bench recent scan results",
+                    "description": "This document shows the 10 most recent results from the kube-bench scanner.",
+                    "collectedDate": "2025-06-18T18:39:54.287000+00:00",
+                    "system": "Kube-Bench",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-INR-02?ksi=KSI-INR&name=Incident+Reporting&ksiDesc=A+secure+cloud+service+offering+will+document,+report,+and+analyze+security+incidents+to+ensure+regulatory+compliance+and+continuous+security+improvement.&description=Maintain+a+log+of+incidents+and+periodically+review+past+incidents+for+patterns+or+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KUBEBENCH_RESULTS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:07:25.640Z"
+                        },
+                        "hash": {
+                            "$numberLong": "7520491566859160926"
+                        }
+                    }
+                },
+                {
+                    "id": "WEBAPPSCAN_RUNS",
+                    "name": "Web App Scan Recent Runs",
+                    "description": "This evidence shows the most recent vulnerability scan executions against publicly accessible components.",
+                    "collectedDate": "2025-06-12T23:17:06.784000+00:00",
+                    "system": "Web App Scanner",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-INR-02?ksi=KSI-INR&name=Incident+Reporting&ksiDesc=A+secure+cloud+service+offering+will+document,+report,+and+analyze+security+incidents+to+ensure+regulatory+compliance+and+continuous+security+improvement.&description=Maintain+a+log+of+incidents+and+periodically+review+past+incidents+for+patterns+or+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=WEBAPPSCAN_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:13:04.730Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4441534461862052166"
+                        }
+                    }
+                },
+                {
+                    "id": "SECOPS_ENABLED",
+                    "name": "Google SecOps (SIEM) Service Enabled",
+                    "description": "This evidence shows the GCP SecOps (SIEM) service is enabled. This is the centralized location for all security, vulnerability and audit logging for the system.",
+                    "collectedDate": "2025-06-12T23:16:46.485000+00:00",
+                    "system": "SIEM",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-INR-02?ksi=KSI-INR&name=Incident+Reporting&ksiDesc=A+secure+cloud+service+offering+will+document,+report,+and+analyze+security+incidents+to+ensure+regulatory+compliance+and+continuous+security+improvement.&description=Maintain+a+log+of+incidents+and+periodically+review+past+incidents+for+patterns+or+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=SECOPS_ENABLED",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:10:18.670Z"
+                        },
+                        "hash": {
+                            "$numberLong": "8566081267670855208"
+                        }
+                    }
+                },
+                {
+                    "id": "KUBEBENCH_RUNS",
+                    "name": "Kube-Bench Scan Logs",
+                    "description": "This evidence shows recent kube-bench STIG scan logs which occurs on a scheduled basis. These scans are used to harden and review system configurations.",
+                    "collectedDate": "2025-06-12T23:16:38.695000+00:00",
+                    "system": "Kubernetes STIGs",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-INR-02?ksi=KSI-INR&name=Incident+Reporting&ksiDesc=A+secure+cloud+service+offering+will+document,+report,+and+analyze+security+incidents+to+ensure+regulatory+compliance+and+continuous+security+improvement.&description=Maintain+a+log+of+incidents+and+periodically+review+past+incidents+for+patterns+or+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KUBEBENCH_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:04:59.648Z"
+                        },
+                        "hash": {
+                            "$numberLong": "3540721029900896990"
+                        }
+                    }
+                },
+                {
+                    "id": "ARTIFACT_SCANS",
+                    "name": "Artifact Registry Vulnerability Scanner Status",
+                    "description": "This evidence shows that all artifact storage repositories have vulnerability scanning enabled.",
+                    "collectedDate": "2025-06-12T23:16:28.622000+00:00",
+                    "system": "Artifact Storage",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-INR-02?ksi=KSI-INR&name=Incident+Reporting&ksiDesc=A+secure+cloud+service+offering+will+document,+report,+and+analyze+security+incidents+to+ensure+regulatory+compliance+and+continuous+security+improvement.&description=Maintain+a+log+of+incidents+and+periodically+review+past+incidents+for+patterns+or+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ARTIFACT_SCANS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:14:00.730Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-1025982657922423463"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-INR-03",
+            "description": "Test and update incident response plans regularly, incorporating lessons learned from incidents and exercises.",
+            "controlFamily": {
+                "id": "KSI-INR",
+                "name": "Incident Response",
+                "description": "A secure cloud service offering will implement and maintain a documented incident response plan, including coordination with contingency planning."
+            },
+            "evidence": [
+                {
+                    "id": "DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_CONTINGENCY_PLAN",
+                    "name": "Contingency Plan",
+                    "description": "This Contingency Plan documents the processes for defining, maintaining, testing, and updating incident response and recovery capabilities to ensure minimal service disruption and data loss during incidents, fulfilling the requirements to define Recovery Time Objectives (RTO), Recovery Point Objectives (RPO), and to coordinate contingency and incident response planning and testing.",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:37.906Z"
+                    },
+                    "system": "Cloud Service Offering",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-INR-03?ksi=KSI-INR&name=Incident+Reporting&ksiDesc=A+secure+cloud+service+offering+will+document,+report,+and+analyze+security+incidents+to+ensure+regulatory+compliance+and+continuous+security+improvement.&description=Generate+after+action+reports+and+regularly+incorporate+lessons+learned+into+operations.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_CONTINGENCY_PLAN",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:14:03.964Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4954554412777813822"
+                        }
+                    }
+                },
+                {
+                    "id": "DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_INCIDENT_RESPONSE_PLAN",
+                    "name": "Incident Response Plan",
+                    "description": "This Incident Response Plan defines, maintains, and tests incident response and recovery capabilities, documents incident reporting and analysis, and incorporates lessons learned to ensure minimal service disruption and continuous security improvement during incidents and contingencies.",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:49.414Z"
+                    },
+                    "system": "Incident Response Management",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-INR-03?ksi=KSI-INR&name=Incident+Reporting&ksiDesc=A+secure+cloud+service+offering+will+document,+report,+and+analyze+security+incidents+to+ensure+regulatory+compliance+and+continuous+security+improvement.&description=Generate+after+action+reports+and+regularly+incorporate+lessons+learned+into+operations.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_INCIDENT_RESPONSE_PLAN",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "PARTIAL",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T17:43:20.390Z"
+                        },
+                        "hash": ""
+                    }
+                },
+                {
+                    "id": "KSI-RPL-04_KSI-INR-03_INCIDENCE_RESPONSE_BACKUP_TESTING_TICKET",
+                    "name": "Incident Response Backup Plan Testing Ticket",
+                    "description": "Evidence showing ticket has been created for testing the backup plan",
+                    "collectedDate": "2025-06-25 18:35:43.137000+00:00",
+                    "system": "Service Now",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-INR-03?ksi=KSI-INR&name=Incident+Reporting&ksiDesc=A+secure+cloud+service+offering+will+document,+report,+and+analyze+security+incidents+to+ensure+regulatory+compliance+and+continuous+security+improvement.&description=Generate+after+action+reports+and+regularly+incorporate+lessons+learned+into+operations.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KSI-RPL-04_KSI-INR-03_INCIDENCE_RESPONSE_BACKUP_TESTING_TICKET",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "PARTIAL",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T17:46:06.438Z"
+                        },
+                        "hash": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-MLA-01",
+            "description": "Operate a Security Information and Event Management (SIEM) or similar system(s) for centralized, tamper-resistant logging of events, activities, and changes.",
+            "controlFamily": {
+                "id": "KSI-MLA",
+                "name": "Monitoring, Logging, and Auditing",
+                "description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes."
+            },
+            "evidence": [
+                {
+                    "id": "SECOPS_ENABLED",
+                    "name": "Google SecOps (SIEM) Service Enabled",
+                    "description": "This evidence shows the GCP SecOps (SIEM) service is enabled. This is the centralized location for all security, vulnerability and audit logging for the system.",
+                    "collectedDate": "2025-06-12T23:16:46.485000+00:00",
+                    "system": "SIEM",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-01?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Operate+a+Security+Information+and+Event+Management+(SIEM)+or+similar+system(s)+for+centralized,+tamper-resistant+logging+of+events,+activities,+and+changes.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=SECOPS_ENABLED",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:10:18.670Z"
+                        },
+                        "hash": {
+                            "$numberLong": "8566081267670855208"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-MLA-02",
+            "description": "Regularly review and audit logs.",
+            "controlFamily": {
+                "id": "KSI-MLA",
+                "name": "Monitoring, Logging, and Auditing",
+                "description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes."
+            },
+            "evidence": [
+                {
+                    "id": "SECOPS_ENABLED",
+                    "name": "Google SecOps (SIEM) Service Enabled",
+                    "description": "This evidence shows the GCP SecOps (SIEM) service is enabled. This is the centralized location for all security, vulnerability and audit logging for the system.",
+                    "collectedDate": "2025-06-12T23:16:46.485000+00:00",
+                    "system": "SIEM",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-02?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Regularly+review+and+audit+logs.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=SECOPS_ENABLED",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:10:18.670Z"
+                        },
+                        "hash": {
+                            "$numberLong": "8566081267670855208"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-MLA-03",
+            "description": "Rapidly detect and remediate or mitigate vulnerabilities.",
+            "controlFamily": {
+                "id": "KSI-MLA",
+                "name": "Monitoring, Logging, and Auditing",
+                "description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes."
+            },
+            "evidence": [
+                {
+                    "id": "KUBEBENCH_RESULTS",
+                    "name": "Kube-bench recent scan results",
+                    "description": "This document shows the 10 most recent results from the kube-bench scanner.",
+                    "collectedDate": "2025-06-18T18:39:54.287000+00:00",
+                    "system": "Kube-Bench",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-03?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Rapidly+detect+and+remediate+or+mitigate+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KUBEBENCH_RESULTS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:07:25.640Z"
+                        },
+                        "hash": {
+                            "$numberLong": "7520491566859160926"
+                        }
+                    }
+                },
+                {
+                    "id": "IAM_SCANNER_RUNS",
+                    "name": "IAM Scanner Recent Logs",
+                    "description": "This evidence shows most recent logs generated by the IAM scanner tool, which scans for inactive and suspicious users and disables any found not in compliance.",
+                    "collectedDate": "2025-06-12T23:17:30.114000+00:00",
+                    "system": "IAM Scanner",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-03?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Rapidly+detect+and+remediate+or+mitigate+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=IAM_SCANNER_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T16:41:58.664Z"
+                        },
+                        "hash": {
+                            "$numberLong": "6959613867533823152"
+                        }
+                    }
+                },
+                {
+                    "id": "WEBAPPSCAN_RUNS",
+                    "name": "Web App Scan Recent Runs",
+                    "description": "This evidence shows the most recent vulnerability scan executions against publicly accessible components.",
+                    "collectedDate": "2025-06-12T23:17:06.784000+00:00",
+                    "system": "Web App Scanner",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-03?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Rapidly+detect+and+remediate+or+mitigate+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=WEBAPPSCAN_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:13:04.730Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4441534461862052166"
+                        }
+                    }
+                },
+                {
+                    "id": "KUBEBENCH_RUNS",
+                    "name": "Kube-Bench Scan Logs",
+                    "description": "This evidence shows recent kube-bench STIG scan logs which occurs on a scheduled basis. These scans are used to harden and review system configurations.",
+                    "collectedDate": "2025-06-12T23:16:38.695000+00:00",
+                    "system": "Kubernetes STIGs",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-03?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Rapidly+detect+and+remediate+or+mitigate+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KUBEBENCH_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:04:59.648Z"
+                        },
+                        "hash": {
+                            "$numberLong": "3540721029900896990"
+                        }
+                    }
+                },
+                {
+                    "id": "ARTIFACT_SCANS",
+                    "name": "Artifact Registry Vulnerability Scanner Status",
+                    "description": "This evidence shows that all artifact storage repositories have vulnerability scanning enabled.",
+                    "collectedDate": "2025-06-12T23:16:28.622000+00:00",
+                    "system": "Artifact Storage",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-03?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Rapidly+detect+and+remediate+or+mitigate+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ARTIFACT_SCANS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:14:00.730Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-1025982657922423463"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-MLA-04",
+            "description": "Perform authenticated vulnerability scanning on information resources.",
+            "controlFamily": {
+                "id": "KSI-MLA",
+                "name": "Monitoring, Logging, and Auditing",
+                "description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes."
+            },
+            "evidence": [
+                {
+                    "id": "KUBEBENCH_RESULTS",
+                    "name": "Kube-bench recent scan results",
+                    "description": "This document shows the 10 most recent results from the kube-bench scanner.",
+                    "collectedDate": "2025-06-18T18:39:54.287000+00:00",
+                    "system": "Kube-Bench",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-04?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Perform+authenticated+vulnerability+scanning+on+information+resources.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KUBEBENCH_RESULTS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:07:25.640Z"
+                        },
+                        "hash": {
+                            "$numberLong": "7520491566859160926"
+                        }
+                    }
+                },
+                {
+                    "id": "WEBAPPSCAN_RUNS",
+                    "name": "Web App Scan Recent Runs",
+                    "description": "This evidence shows the most recent vulnerability scan executions against publicly accessible components.",
+                    "collectedDate": "2025-06-12T23:17:06.784000+00:00",
+                    "system": "Web App Scanner",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-04?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Perform+authenticated+vulnerability+scanning+on+information+resources.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=WEBAPPSCAN_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:13:04.730Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4441534461862052166"
+                        }
+                    }
+                },
+                {
+                    "id": "KUBEBENCH_RUNS",
+                    "name": "Kube-Bench Scan Logs",
+                    "description": "This evidence shows recent kube-bench STIG scan logs which occurs on a scheduled basis. These scans are used to harden and review system configurations.",
+                    "collectedDate": "2025-06-12T23:16:38.695000+00:00",
+                    "system": "Kubernetes STIGs",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-04?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Perform+authenticated+vulnerability+scanning+on+information+resources.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KUBEBENCH_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:04:59.648Z"
+                        },
+                        "hash": {
+                            "$numberLong": "3540721029900896990"
+                        }
+                    }
+                },
+                {
+                    "id": "ARTIFACT_SCANS",
+                    "name": "Artifact Registry Vulnerability Scanner Status",
+                    "description": "This evidence shows that all artifact storage repositories have vulnerability scanning enabled.",
+                    "collectedDate": "2025-06-12T23:16:28.622000+00:00",
+                    "system": "Artifact Storage",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-04?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Perform+authenticated+vulnerability+scanning+on+information+resources.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ARTIFACT_SCANS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:14:00.730Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-1025982657922423463"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-MLA-05",
+            "description": "Perform Infrastructure as Code and configuration evaluation and testing.",
+            "controlFamily": {
+                "id": "KSI-MLA",
+                "name": "Monitoring, Logging, and Auditing",
+                "description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes."
+            },
+            "evidence": [
+                {
+                    "id": "STATIC_CODE_ANALYSIS",
+                    "name": "Static Code Analysis",
+                    "description": "this evidence shows the output of running the static code analysis scans on the code base",
+                    "collectedDate": "2025-06-18T18:39:56.586000+00:00",
+                    "system": "Bandit Scan",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-05?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Perform+Infrastructure+as+Code+and+configuration+evaluation+and+testing.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=STATIC_CODE_ANALYSIS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T16:41:32.052Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-2008833460854654313"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-MLA-06",
+            "description": "Centrally track and prioritize the mitigation and/or remediation of identified vulnerabilities.",
+            "controlFamily": {
+                "id": "KSI-MLA",
+                "name": "Monitoring, Logging, and Auditing",
+                "description": "A secure cloud service offering will monitor, log, and audit all important events, activity, and changes."
+            },
+            "evidence": [
+                {
+                    "id": "SERVICE_NOW_INCIDENT_TICKET",
+                    "name": "Service Now Incident Ticket",
+                    "description": "This evidence shows a ticket being created in Service Now with a post request for a vulnerability, after vulnerabilty is fixed the ticket is then shown to be resolved",
+                    "collectedDate": "2025-06-18T18:39:57.199000+00:00",
+                    "system": "Service Now",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-MLA-06?ksi=KSI-MLA&name=Monitoring,+Logging,+and+Auditing&ksiDesc=A+secure+cloud+service+offering+will+monitor,+log,+and+audit+all+important+events,+activity,+and+changes.&description=Centrally+track+and+prioritize+the+mitigation+and/or+remediation+of+identified+vulnerabilities.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=SERVICE_NOW_INCIDENT_TICKET",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T16:40:18.618Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-3250847184830913736"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-PIY-01",
+            "description": "Have an up-to-date information resource inventory or code defining all deployed assets, software, and services.",
+            "controlFamily": {
+                "id": "KSI-PIY",
+                "name": "Policy and Inventory",
+                "description": "A secure cloud service offering will have intentional, organized, universal guidance for how every information resource, including personnel, is secured."
+            },
+            "evidence": [
+                {
+                    "id": "ASSET_INVENTORY_RUNS",
+                    "name": "Asset Inventory Scan Results",
+                    "description": "This evidence shows the output results file from the most recent runs of the Asset Inventory scanner.",
+                    "collectedDate": "2025-06-12T23:17:35.063000+00:00",
+                    "system": "Asset Inventory",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-01?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Have+an+up-to-date+information+resource+inventory+or+code+defining+all+deployed+assets,+software,+and+services.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ASSET_INVENTORY_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "REJECTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:35:18.332Z"
+                        },
+                        "hash": ""
+                    }
+                },
+                {
+                    "id": "KSI-PIY-01_ASSET_INVENTORY",
+                    "name": "Asset Inventory File",
+                    "description": "A list of all the compute assets, software and service that are deployed in our environment.",
+                    "collectedDate": "2025-06-25 18:35:45.900000+00:00",
+                    "system": "Asset Inventory",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-01?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Have+an+up-to-date+information+resource+inventory+or+code+defining+all+deployed+assets,+software,+and+services.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KSI-PIY-01_ASSET_INVENTORY",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T16:55:04.526Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-5926422695957729294"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-PIY-02",
+            "description": "Have policies outlining the security objectives of all information resources.",
+            "controlFamily": {
+                "id": "KSI-PIY",
+                "name": "Policy and Inventory",
+                "description": "A secure cloud service offering will have intentional, organized, universal guidance for how every information resource, including personnel, is secured."
+            },
+            "evidence": [
+                {
+                    "id": "DOCUMENTS_KSI-PIY-02_SECURITY_OBJECTIVE_HANDBOOK_V1",
+                    "name": "Security Objective Handbook V1",
+                    "description": "This evidence outlines policies that define the security objectives for all information resources, ensuring intentional, organized, and universal guidance for securing personnel and other assets.",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:25.812Z"
+                    },
+                    "system": "General Information Security Management",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-02?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Have+policies+outlining+the+security+objectives+of+all+information+resources.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DOCUMENTS_KSI-PIY-02_SECURITY_OBJECTIVE_HANDBOOK_V1",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:41:40.476Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-4521856985897425898"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-PIY-03",
+            "description": "Maintain a vulnerability disclosure program.",
+            "controlFamily": {
+                "id": "KSI-PIY",
+                "name": "Policy and Inventory",
+                "description": "A secure cloud service offering will have intentional, organized, universal guidance for how every information resource, including personnel, is secured."
+            },
+            "evidence": [
+                {
+                    "id": "DOCUMENTS_KSI-PIY-03_INCIDENT_RESPONSE_PLAN",
+                    "name": "Incident Response Plan",
+                    "description": "This Incident Response Plan defines, maintains, and tests incident response and recovery capabilities, documents incident reporting and analysis, and incorporates lessons learned to ensure minimal service disruption and continuous security improvement during incidents and contingencies.",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:49.414Z"
+                    },
+                    "system": "Incident Response Management",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-03?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Maintain+a+vulnerability+disclosure+program.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DOCUMENTS_KSI-PIY-03_INCIDENT_RESPONSE_PLAN",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T16:54:14.476Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-3460605559908140903"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-PIY-04",
+            "description": "Build security considerations into the Software Development Lifecycle and align with CISA Secure By Design principles.",
+            "controlFamily": {
+                "id": "KSI-PIY",
+                "name": "Policy and Inventory",
+                "description": "A secure cloud service offering will have intentional, organized, universal guidance for how every information resource, including personnel, is secured."
+            },
+            "evidence": [
+                {
+                    "id": "PLATFORM_SDLC",
+                    "name": "SDLC Documentation",
+                    "description": "This documentation outlines the for Anitian which uses a consistent, risk-informed approach for applying changes and security patches.",
+                    "collectedDate": "2025-06-18T18:39:56.070000+00:00",
+                    "system": "Operations",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-04?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Build+security+considerations+into+the+Software+Development+Lifecycle+and+align+with+CISA+Secure+By+Design+principles.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=PLATFORM_SDLC",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T19:32:02.668Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-4521339665507435578"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-PIY-05",
+            "description": "Document methods used to evaluate information resource implementations.",
+            "controlFamily": {
+                "id": "KSI-PIY",
+                "name": "Policy and Inventory",
+                "description": "A secure cloud service offering will have intentional, organized, universal guidance for how every information resource, including personnel, is secured."
+            },
+            "evidence": [
+                {
+                    "id": "PLATFORM_SDLC",
+                    "name": "SDLC Documentation",
+                    "description": "This documentation outlines the for Anitian which uses a consistent, risk-informed approach for applying changes and security patches.",
+                    "collectedDate": "2025-06-18T18:39:56.070000+00:00",
+                    "system": "Operations",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-05?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Document+methods+used+to+evaluate+information+resource+implementations.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=PLATFORM_SDLC",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T19:32:02.668Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-4521339665507435578"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-PIY-06",
+            "description": "Have a dedicated staff and budget for security with executive support, commensurate with the size, complexity, scope, and risk of the service offering.",
+            "controlFamily": {
+                "id": "KSI-PIY",
+                "name": "Policy and Inventory",
+                "description": "A secure cloud service offering will have intentional, organized, universal guidance for how every information resource, including personnel, is secured."
+            },
+            "evidence": [
+                {
+                    "id": "ORG_CHART_NAMES_TITLES_6_2025",
+                    "name": "KSI-PIY-06_Org Chart Names Titles _6_2025.csv",
+                    "description": "",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:11.191Z"
+                    },
+                    "system": "Policy and Inventory",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-06?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Have+a+dedicated+staff+and+budget+for+security+with+executive+support,+commensurate+with+the+size,+complexity,+scope,+and+risk+of+the+service+offering.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ORG_CHART_NAMES_TITLES_6_2025",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:55:07.095Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-5517646420591388872"
+                        }
+                    }
+                },
+                {
+                    "id": "ANITIAN_FEDFLEX_COMMITMENT",
+                    "name": "Anitian FedFlex Commitment (June 2025) - FINAL.pdf",
+                    "description": "",
+                    "collectedDate": {
+                        "$date": "2025-06-20T11:50:11.191Z"
+                    },
+                    "system": "Policy and Inventory",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-06?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Have+a+dedicated+staff+and+budget+for+security+with+executive+support,+commensurate+with+the+size,+complexity,+scope,+and+risk+of+the+service+offering.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ANITIAN_FEDFLEX_COMMITMENT",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "REJECTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:56:21.431Z"
+                        },
+                        "hash": ""
+                    }
+                },
+                {
+                    "id": "KSI-PIY-06_ANITIAN_FEDFLEX_STARTER_ANNUAL_SECURITY_BUDGET",
+                    "name": "Anitian FedFlex Starter Annual Security Budget.pdf",
+                    "description": "",
+                    "collectedDate": {
+                        "$date": "2025-06-26T00:26:56.935Z"
+                    },
+                    "system": "Policy and Inventory",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-06?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Have+a+dedicated+staff+and+budget+for+security+with+executive+support,+commensurate+with+the+size,+complexity,+scope,+and+risk+of+the+service+offering.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KSI-PIY-06_ANITIAN_FEDFLEX_STARTER_ANNUAL_SECURITY_BUDGET",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T16:52:52.695Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-4173521237737267586"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-PIY-07",
+            "description": "Document risk management decisions for software supply chain security.",
+            "controlFamily": {
+                "id": "KSI-PIY",
+                "name": "Policy and Inventory",
+                "description": "A secure cloud service offering will have intentional, organized, universal guidance for how every information resource, including personnel, is secured."
+            },
+            "evidence": [
+                {
+                    "id": "SOC_PLATFORM_TEAMS",
+                    "name": "KSI-PIY-07_FedFlex SOC_Platform Teams.xlsx",
+                    "description": "",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:11.191Z"
+                    },
+                    "system": "Policy and Inventory",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-07?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Document+risk+management+decisions+for+software+supply+chain+security.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=SOC_PLATFORM_TEAMS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "REJECTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T16:01:46.407Z"
+                        },
+                        "hash": ""
+                    }
+                },
+                {
+                    "id": "DOCUMENTS_KSI-PIY-07_SECURITY_OBJECTIVE_HANDBOOK_V1",
+                    "name": "Security Objective Handbook V1",
+                    "description": "This evidence outlines policies that define the security objectives for all information resources, ensuring intentional, organized, and universal guidance for securing personnel and other assets.",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:25.812Z"
+                    },
+                    "system": "General Information Security Management",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-07?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Document+risk+management+decisions+for+software+supply+chain+security.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DOCUMENTS_KSI-PIY-07_SECURITY_OBJECTIVE_HANDBOOK_V1",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T16:51:34.499Z"
+                        },
+                        "hash": {
+                            "$numberLong": "1798183534257720181"
+                        }
+                    }
+                },
+                {
+                    "id": "KSI-PIY-07_PLATFORM_SDLC",
+                    "name": "SDLC Documentation",
+                    "description": "This documentation outlines the for Anitian which uses a consistent, risk-informed approach for applying changes and security patches.",
+                    "collectedDate": "2025-06-18T18:39:56.070000+00:00",
+                    "system": "Operations",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-PIY-07?ksi=KSI-PIY&name=Policy+and+Inventory&ksiDesc=A+secure+cloud+service+offering+will+have+intentional,+organized,+universal+guidance+for+how+every+information+resource,+including+personnel,+is+secured.&description=Document+risk+management+decisions+for+software+supply+chain+security.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KSI-PIY-07_PLATFORM_SDLC",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T16:51:12.604Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-2349431005600220372"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-SVC-01",
+            "description": "Harden and review network and system configurations.",
+            "controlFamily": {
+                "id": "KSI-SVC",
+                "name": "Service Configuration",
+                "description": "A secure cloud service offering will follow FedRAMP encryption policies, continuously verify information resource integrity, and restrict access to third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "KUBEBENCH_RESULTS",
+                    "name": "Kube-bench recent scan results",
+                    "description": "This document shows the 10 most recent results from the kube-bench scanner.",
+                    "collectedDate": "2025-06-18T18:39:54.287000+00:00",
+                    "system": "Kube-Bench",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-01?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Harden+and+review+network+and+system+configurations.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KUBEBENCH_RESULTS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:07:25.640Z"
+                        },
+                        "hash": {
+                            "$numberLong": "7520491566859160926"
+                        }
+                    }
+                },
+                {
+                    "id": "KUBEBENCH_RUNS",
+                    "name": "Kube-Bench Scan Logs",
+                    "description": "This evidence shows recent kube-bench STIG scan logs which occurs on a scheduled basis. These scans are used to harden and review system configurations.",
+                    "collectedDate": "2025-06-12T23:16:38.695000+00:00",
+                    "system": "Kubernetes STIGs",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-01?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Harden+and+review+network+and+system+configurations.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KUBEBENCH_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:04:59.648Z"
+                        },
+                        "hash": {
+                            "$numberLong": "3540721029900896990"
+                        }
+                    }
+                },
+                {
+                    "id": "NGFW_POLICIES",
+                    "name": "Firewall policy definitions applied to the network",
+                    "description": "This evidence shows all firewall policies on the system network that are active and enforce limiting inbound and outbound traffic based on country codes, destinations, traffic type.",
+                    "collectedDate": "2025-06-12T23:14:14.751000+00:00",
+                    "system": "Network Firewall",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-01?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Harden+and+review+network+and+system+configurations.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=NGFW_POLICIES",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T19:29:52.427Z"
+                        },
+                        "hash": {
+                            "$numberLong": "1986338346777104642"
+                        }
+                    }
+                },
+                {
+                    "id": "NGFW_RULES",
+                    "name": "Firewall rules limit inbound and outbound traffic",
+                    "description": "This evidence shows all firewall rules on the system network that are active and enforce limiting inbound and outbound traffic by port, direction and source IP.",
+                    "collectedDate": "2025-06-12T23:14:13.257000+00:00",
+                    "system": "Network Firewall",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-01?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Harden+and+review+network+and+system+configurations.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=NGFW_RULES",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T19:29:06.811Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-6414614859913559639"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-SVC-02",
+            "description": "Encrypt or otherwise secure network traffic.",
+            "controlFamily": {
+                "id": "KSI-SVC",
+                "name": "Service Configuration",
+                "description": "A secure cloud service offering will follow FedRAMP encryption policies, continuously verify information resource integrity, and restrict access to third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "ISTIO_NAMESPACE_INJECTION",
+                    "name": "Istio enabled on all namespaces",
+                    "description": "This document shows the 'istio-injection: true' label on all managed namespaces which forces all pods to secure traffic via the service mesh and istio-proxies.",
+                    "collectedDate": "2025-06-18T18:39:58.197000+00:00",
+                    "system": "Istio",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-02?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Encrypt+or+otherwise+secure+network+traffic.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ISTIO_NAMESPACE_INJECTION",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T14:32:23.556Z"
+                        },
+                        "hash": {
+                            "$numberLong": "7616027721316254914"
+                        }
+                    }
+                },
+                {
+                    "id": "CLB_SSL_STATUS",
+                    "name": "Load Balancer SSL Enablement Status",
+                    "description": "This evidence shows the status of SSL on all loadbalancers.",
+                    "collectedDate": "2025-06-12T23:17:55.828000+00:00",
+                    "system": "Load Balancers",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-02?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Encrypt+or+otherwise+secure+network+traffic.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=CLB_SSL_STATUS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T14:30:33.436Z"
+                        },
+                        "hash": {
+                            "$numberLong": "3743227453751678140"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-SVC-03",
+            "description": "Encrypt all federal and sensitive information at rest.",
+            "controlFamily": {
+                "id": "KSI-SVC",
+                "name": "Service Configuration",
+                "description": "A secure cloud service offering will follow FedRAMP encryption policies, continuously verify information resource integrity, and restrict access to third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "FIRESTORE_ENCRYPTION",
+                    "name": "Encryption keys used on firestore databases",
+                    "description": "The presense of a cmek config in the database shows a customer managed kms key is being used. The absense of the cmek config shows a Google Managed Key is used.",
+                    "collectedDate": "2025-06-12T23:16:41.854000+00:00",
+                    "system": "Firestore",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-03?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Encrypt+all+federal+and+sensitive+information+at+rest.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=FIRESTORE_ENCRYPTION",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:04:15.821Z"
+                        },
+                        "hash": {
+                            "$numberLong": "2320316656251333808"
+                        }
+                    }
+                },
+                {
+                    "id": "CSTORE_ENCRYPTION",
+                    "name": "Encryption keys used on storage accounts",
+                    "description": "The presense of a default_kms_key_name shows a customer managed kms key is being uses. A default_kms_key_name value of None shows a Google Managed Key is used.",
+                    "collectedDate": "2025-06-12T23:14:16.148000+00:00",
+                    "system": "Cloud Storage",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-03?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Encrypt+all+federal+and+sensitive+information+at+rest.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=CSTORE_ENCRYPTION",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T14:36:03.457Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-138676789751992032"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-SVC-04",
+            "description": "Manage configuration centrally.",
+            "controlFamily": {
+                "id": "KSI-SVC",
+                "name": "Service Configuration",
+                "description": "A secure cloud service offering will follow FedRAMP encryption policies, continuously verify information resource integrity, and restrict access to third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "MANAGE_CONFIGURATION_CENTRALLY",
+                    "name": "Manage Configuration Centrally",
+                    "description": "this evidence shows the structure of the current configuration files in the code base.",
+                    "collectedDate": "2025-06-18T18:39:54.462000+00:00",
+                    "system": "Configuration Management",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-04?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Manage+configuration+centrally.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=MANAGE_CONFIGURATION_CENTRALLY",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T14:55:50.467Z"
+                        },
+                        "hash": {
+                            "$numberLong": "3256074756955817481"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-SVC-05",
+            "description": "Enforce system and information resource integrity through cryptographic means.",
+            "controlFamily": {
+                "id": "KSI-SVC",
+                "name": "Service Configuration",
+                "description": "A secure cloud service offering will follow FedRAMP encryption policies, continuously verify information resource integrity, and restrict access to third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "CONTAINER_CLUSTERS",
+                    "name": "Kubernetes Cluster Config",
+                    "description": "This evidence shows the kubernetes clusters have binary authorization enabled if the binaryAuthorization field is set.",
+                    "collectedDate": "2025-06-12T23:17:09.138000+00:00",
+                    "system": "Kubernetes Cluster",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-05?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Enforce+system+and+information+resource+integrity+through+cryptographic+means.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=CONTAINER_CLUSTERS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T14:57:54.589Z"
+                        },
+                        "hash": {
+                            "$numberLong": "7067739834412877649"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-SVC-06",
+            "description": "Use automated key management systems to manage, protect, and regularly rotate digital keys and certificates.",
+            "controlFamily": {
+                "id": "KSI-SVC",
+                "name": "Service Configuration",
+                "description": "A secure cloud service offering will follow FedRAMP encryption policies, continuously verify information resource integrity, and restrict access to third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "FIRESTORE_ENCRYPTION",
+                    "name": "Encryption keys used on firestore databases",
+                    "description": "The presense of a cmek config in the database shows a customer managed kms key is being used. The absense of the cmek config shows a Google Managed Key is used.",
+                    "collectedDate": "2025-06-12T23:16:41.854000+00:00",
+                    "system": "Firestore",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-06?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Use+automated+key+management+systems+to+manage,+protect,+and+regularly+rotate+digital+keys+and+certificates.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=FIRESTORE_ENCRYPTION",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:04:15.821Z"
+                        },
+                        "hash": {
+                            "$numberLong": "2320316656251333808"
+                        }
+                    }
+                },
+                {
+                    "id": "CSTORE_ENCRYPTION",
+                    "name": "Encryption keys used on storage accounts",
+                    "description": "The presense of a default_kms_key_name shows a customer managed kms key is being uses. A default_kms_key_name value of None shows a Google Managed Key is used.",
+                    "collectedDate": "2025-06-12T23:14:16.148000+00:00",
+                    "system": "Cloud Storage",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-06?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Use+automated+key+management+systems+to+manage,+protect,+and+regularly+rotate+digital+keys+and+certificates.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=CSTORE_ENCRYPTION",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T14:36:03.457Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-138676789751992032"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-SVC-07",
+            "description": "Use a consistent, risk-informed approach for applying security patches.",
+            "controlFamily": {
+                "id": "KSI-SVC",
+                "name": "Service Configuration",
+                "description": "A secure cloud service offering will follow FedRAMP encryption policies, continuously verify information resource integrity, and restrict access to third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "PLATFORM_SDLC",
+                    "name": "SDLC Documentation",
+                    "description": "This documentation outlines the for Anitian which uses a consistent, risk-informed approach for applying changes and security patches.",
+                    "collectedDate": "2025-06-18T18:39:56.070000+00:00",
+                    "system": "Operations",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-SVC-07?ksi=KSI-SVC&name=Service+Configuration&ksiDesc=A+secure+cloud+service+offering+will+follow+FedRAMP+encryption+policies,+continuously+verify+information+resource+integrity,+and+restrict+access+to+third-party+information+resources.&description=Use+a+consistent,+risk-informed+approach+for+applying+security+patches.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=PLATFORM_SDLC",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T19:32:02.668Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-4521339665507435578"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-TPR-01",
+            "description": "Identify all third-party information resources.",
+            "controlFamily": {
+                "id": "KSI-TPR",
+                "name": "Third-Party Information Resources",
+                "description": "A secure cloud service offering will understand, monitor, and manage supply chain risks from third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "PLATFORM_SBOM",
+                    "name": "Software Bill of Materials",
+                    "description": "This documentation shows the  Software Bill of Materials (SBOM) for the platform software.",
+                    "collectedDate": "2025-06-18T18:39:57.942000+00:00",
+                    "system": "sbom",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-01?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Identify+all+third-party+information+resources.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=PLATFORM_SBOM",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T17:56:24.548Z"
+                        },
+                        "hash": {
+                            "$numberLong": "80670167433010691"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-TPR-02",
+            "description": "Regularly confirm that services handling federal information or are likely to impact the confidentiality, integrity, or availability of federal information are FedRAMP authorized and securely configured.",
+            "controlFamily": {
+                "id": "KSI-TPR",
+                "name": "Third-Party Information Resources",
+                "description": "A secure cloud service offering will understand, monitor, and manage supply chain risks from third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "ASSURED_WORKLOADS",
+                    "name": "Assured Workloads",
+                    "description": "The assured workloads complianceStatus shows any active violations that apply to the workload.",
+                    "collectedDate": "2025-06-12T23:17:12.902000+00:00",
+                    "system": "Assured Workloads",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-02?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Regularly+confirm+that+services+handling+federal+information+or+are+likely+to+impact+the+confidentiality,+integrity,+or+availability+of+federal+information+are+FedRAMP+authorized+and+securely+configured.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ASSURED_WORKLOADS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:01:44.248Z"
+                        },
+                        "hash": {
+                            "$numberLong": "5883114320182790029"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-TPR-03",
+            "description": "Identify and prioritize mitigation of potential supply chain risks.",
+            "controlFamily": {
+                "id": "KSI-TPR",
+                "name": "Third-Party Information Resources",
+                "description": "A secure cloud service offering will understand, monitor, and manage supply chain risks from third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "PLATFORM_SBOM",
+                    "name": "Software Bill of Materials",
+                    "description": "This documentation shows the  Software Bill of Materials (SBOM) for the platform software.",
+                    "collectedDate": "2025-06-18T18:39:57.942000+00:00",
+                    "system": "sbom",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-03?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Identify+and+prioritize+mitigation+of+potential+supply+chain+risks.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=PLATFORM_SBOM",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T17:56:24.548Z"
+                        },
+                        "hash": {
+                            "$numberLong": "80670167433010691"
+                        }
+                    }
+                },
+                {
+                    "id": "KUBEBENCH_RESULTS",
+                    "name": "Kube-bench recent scan results",
+                    "description": "This document shows the 10 most recent results from the kube-bench scanner.",
+                    "collectedDate": "2025-06-18T18:39:54.287000+00:00",
+                    "system": "Kube-Bench",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-03?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Identify+and+prioritize+mitigation+of+potential+supply+chain+risks.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KUBEBENCH_RESULTS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:07:25.640Z"
+                        },
+                        "hash": {
+                            "$numberLong": "7520491566859160926"
+                        }
+                    }
+                },
+                {
+                    "id": "WEBAPPSCAN_RUNS",
+                    "name": "Web App Scan Recent Runs",
+                    "description": "This evidence shows the most recent vulnerability scan executions against publicly accessible components.",
+                    "collectedDate": "2025-06-12T23:17:06.784000+00:00",
+                    "system": "Web App Scanner",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-03?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Identify+and+prioritize+mitigation+of+potential+supply+chain+risks.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=WEBAPPSCAN_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:13:04.730Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4441534461862052166"
+                        }
+                    }
+                },
+                {
+                    "id": "SECOPS_ENABLED",
+                    "name": "Google SecOps (SIEM) Service Enabled",
+                    "description": "This evidence shows the GCP SecOps (SIEM) service is enabled. This is the centralized location for all security, vulnerability and audit logging for the system.",
+                    "collectedDate": "2025-06-12T23:16:46.485000+00:00",
+                    "system": "SIEM",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-03?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Identify+and+prioritize+mitigation+of+potential+supply+chain+risks.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=SECOPS_ENABLED",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:10:18.670Z"
+                        },
+                        "hash": {
+                            "$numberLong": "8566081267670855208"
+                        }
+                    }
+                },
+                {
+                    "id": "KUBEBENCH_RUNS",
+                    "name": "Kube-Bench Scan Logs",
+                    "description": "This evidence shows recent kube-bench STIG scan logs which occurs on a scheduled basis. These scans are used to harden and review system configurations.",
+                    "collectedDate": "2025-06-12T23:16:38.695000+00:00",
+                    "system": "Kubernetes STIGs",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-03?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Identify+and+prioritize+mitigation+of+potential+supply+chain+risks.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KUBEBENCH_RUNS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:04:59.648Z"
+                        },
+                        "hash": {
+                            "$numberLong": "3540721029900896990"
+                        }
+                    }
+                },
+                {
+                    "id": "ARTIFACT_SCANS",
+                    "name": "Artifact Registry Vulnerability Scanner Status",
+                    "description": "This evidence shows that all artifact storage repositories have vulnerability scanning enabled.",
+                    "collectedDate": "2025-06-12T23:16:28.622000+00:00",
+                    "system": "Artifact Storage",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-03?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Identify+and+prioritize+mitigation+of+potential+supply+chain+risks.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=ARTIFACT_SCANS",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T18:14:00.730Z"
+                        },
+                        "hash": {
+                            "$numberLong": "-1025982657922423463"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-TPR-04",
+            "description": "Monitor third party software information resources for upstream vulnerabilities, with contractual notification requirements or active monitoring services.",
+            "controlFamily": {
+                "id": "KSI-TPR",
+                "name": "Third-Party Information Resources",
+                "description": "A secure cloud service offering will understand, monitor, and manage supply chain risks from third-party information resources."
+            },
+            "evidence": [
+                {
+                    "id": "PLATFORM_SBOM",
+                    "name": "Software Bill of Materials",
+                    "description": "This documentation shows the  Software Bill of Materials (SBOM) for the platform software.",
+                    "collectedDate": "2025-06-18T18:39:57.942000+00:00",
+                    "system": "sbom",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-04?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Monitor+third-party+software+information+resources+for+upstream+vulnerabilities,+with+contractual+notification+requirements+or+active+monitoring+services.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=PLATFORM_SBOM",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-23T17:56:24.548Z"
+                        },
+                        "hash": {
+                            "$numberLong": "80670167433010691"
+                        }
+                    }
+                },
+                {
+                    "id": "GITHUB_VULN_MONITORING_POLICY",
+                    "name": "Policy for vuln monitoring in Github",
+                    "description": "Documentation describing the monitoring of github repositories for vulnerabilities.",
+                    "collectedDate": "2025-06-23T17:25:50.143000+00:00",
+                    "system": "github",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-04?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Monitor+third-party+software+information+resources+for+upstream+vulnerabilities,+with+contractual+notification+requirements+or+active+monitoring+services.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=GITHUB_VULN_MONITORING_POLICY",
+                    "auditStatus": {
+                        "status": "READY_FOR_REVIEW",
+                        "username": "system-processed",
+                        "lastUpdatedTimestamp": "2025-06-19T14:51:11.191Z",
+                        "hash": ""
+                    }
+                },
+                {
+                    "id": "GITHUB_WATCHERS",
+                    "name": "Watchers for github repositories",
+                    "description": "Documentation showing the third part security watchers.",
+                    "collectedDate": "2025-06-23T17:25:51.769000+00:00",
+                    "system": "github",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-TPR-04?ksi=KSI-TPR&name=Third-Party+Information+Resources&ksiDesc=A+secure+cloud+service+offering+will+understand,+monitor,+and+manage+supply+chain+risks+from+third-party+information+resources.&description=Monitor+third-party+software+information+resources+for+upstream+vulnerabilities,+with+contractual+notification+requirements+or+active+monitoring+services.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=GITHUB_WATCHERS",
+                    "auditStatus": {
+                        "status": "READY_FOR_REVIEW",
+                        "username": "system-processed",
+                        "lastUpdatedTimestamp": "2025-06-19T14:51:11.191Z",
+                        "hash": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-RPL-01",
+            "description": "Define Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO).",
+            "controlFamily": {
+                "id": "KSI-RPL",
+                "name": "Recovery Planning",
+                "description": "A secure cloud service offering will define, maintain, and test incident response plan(s) and recovery capabilities to ensure minimal service disruption and data loss during incidents and contingencies."
+            },
+            "evidence": [
+                {
+                    "id": "DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_CONTINGENCY_PLAN",
+                    "name": "Contingency Plan",
+                    "description": "This Contingency Plan documents the processes for defining, maintaining, testing, and updating incident response and recovery capabilities to ensure minimal service disruption and data loss during incidents, fulfilling the requirements to define Recovery Time Objectives (RTO), Recovery Point Objectives (RPO), and to coordinate contingency and incident response planning and testing.",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:37.906Z"
+                    },
+                    "system": "Cloud Service Offering",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-RPL-01?ksi=KSI-RPL&name=Recovery+Planning&ksiDesc=A+secure+cloud+service+offering+will+define,+maintain,+and+test+incident+response+plan(s)+and+recovery+capabilities+to+ensure+minimal+service+disruption+and+data+loss+during+incidents+and+contingencies.&description=Define+Recovery+Time+Objectives+(RTO)+and+Recovery+Point+Objectives+(RPO).&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_CONTINGENCY_PLAN",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:14:03.964Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4954554412777813822"
+                        }
+                    }
+                },
+                {
+                    "id": "GKE_BACKUP_DOCUMENTATION",
+                    "name": "GKE Backup Documentation",
+                    "description": "This documentation shows the policies for backups.",
+                    "collectedDate": "2025-06-18T18:39:57.668000+00:00",
+                    "system": "GKE Backup",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-RPL-01?ksi=KSI-RPL&name=Recovery+Planning&ksiDesc=A+secure+cloud+service+offering+will+define,+maintain,+and+test+incident+response+plan(s)+and+recovery+capabilities+to+ensure+minimal+service+disruption+and+data+loss+during+incidents+and+contingencies.&description=Define+Recovery+Time+Objectives+(RTO)+and+Recovery+Point+Objectives+(RPO).&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=GKE_BACKUP_DOCUMENTATION",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:09:47.024Z"
+                        },
+                        "hash": {
+                            "$numberLong": "1763434409997998985"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-RPL-02",
+            "description": "Document and maintain a tested incident response and recovery plan, including periodic testing and updates.",
+            "controlFamily": {
+                "id": "KSI-RPL",
+                "name": "Recovery Planning",
+                "description": "A secure cloud service offering will define, maintain, and test incident response plan(s) and recovery capabilities to ensure minimal service disruption and data loss during incidents and contingencies."
+            },
+            "evidence": [
+                {
+                    "id": "DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_CONTINGENCY_PLAN",
+                    "name": "Contingency Plan",
+                    "description": "This Contingency Plan documents the processes for defining, maintaining, testing, and updating incident response and recovery capabilities to ensure minimal service disruption and data loss during incidents, fulfilling the requirements to define Recovery Time Objectives (RTO), Recovery Point Objectives (RPO), and to coordinate contingency and incident response planning and testing.",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:37.906Z"
+                    },
+                    "system": "Cloud Service Offering",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-RPL-02?ksi=KSI-RPL&name=Recovery+Planning&ksiDesc=A+secure+cloud+service+offering+will+define,+maintain,+and+test+incident+response+plan(s)+and+recovery+capabilities+to+ensure+minimal+service+disruption+and+data+loss+during+incidents+and+contingencies.&description=Develop+and+maintain+a+recovery+plan+that+aligns+with+the+defined+recovery+objectives.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_CONTINGENCY_PLAN",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-24T15:14:03.964Z"
+                        },
+                        "hash": {
+                            "$numberLong": "4954554412777813822"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-RPL-03",
+            "description": "Perform system backups aligned with recovery objectives.",
+            "controlFamily": {
+                "id": "KSI-RPL",
+                "name": "Recovery Planning",
+                "description": "A secure cloud service offering will define, maintain, and test incident response plan(s) and recovery capabilities to ensure minimal service disruption and data loss during incidents and contingencies."
+            },
+            "evidence": [
+                {
+                    "id": "GKE_BACKUP",
+                    "name": "GKE Backup Config",
+                    "description": "This evidence shows the GKE backup config",
+                    "collectedDate": "2025-06-12T23:17:11.867000+00:00",
+                    "system": "GKE Backup",
+                    "collectionType": "automated",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-RPL-03?ksi=KSI-RPL&name=Recovery+Planning&ksiDesc=A+secure+cloud+service+offering+will+define,+maintain,+and+test+incident+response+plan(s)+and+recovery+capabilities+to+ensure+minimal+service+disruption+and+data+loss+during+incidents+and+contingencies.&description=Perform+system+backups+aligned+with+recovery+objectives.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=GKE_BACKUP",
+                    "auditStatus": {
+                        "username": "lee.neeper@a-lign.com",
+                        "status": "ACCEPTED",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T17:05:06.793Z"
+                        },
+                        "hash": {
+                            "$numberLong": "7152360112961936198"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "KSI-RPL-04",
+            "description": "Regularly test the capability to recover from incidents and contingencies.",
+            "controlFamily": {
+                "id": "KSI-RPL",
+                "name": "Recovery Planning",
+                "description": "A secure cloud service offering will define, maintain, and test incident response plan(s) and recovery capabilities to ensure minimal service disruption and data loss during incidents and contingencies."
+            },
+            "evidence": [
+                {
+                    "id": "DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_INCIDENT_RESPONSE_PLAN",
+                    "name": "Incident Response Plan",
+                    "description": "This Incident Response Plan defines, maintains, and tests incident response and recovery capabilities, documents incident reporting and analysis, and incorporates lessons learned to ensure minimal service disruption and continuous security improvement during incidents and contingencies.",
+                    "collectedDate": {
+                        "$date": "2025-06-19T14:51:49.414Z"
+                    },
+                    "system": "Incident Response Management",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-RPL-04?ksi=KSI-RPL&name=Recovery+Planning&ksiDesc=A+secure+cloud+service+offering+will+define,+maintain,+and+test+incident+response+plan(s)+and+recovery+capabilities+to+ensure+minimal+service+disruption+and+data+loss+during+incidents+and+contingencies.&description=Regularly+test+the+capability+to+recover+from+incidents+and+contingencies.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=DOCUMENTS_KSI-RPL-01-02-04_KSI-INR-01-03_INCIDENT_RESPONSE_PLAN",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "PARTIAL",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T17:43:20.390Z"
+                        },
+                        "hash": ""
+                    }
+                },
+                {
+                    "id": "KSI-RPL-04_KSI-INR-03_INCIDENCE_RESPONSE_BACKUP_TESTING_TICKET",
+                    "name": "Incident Response Backup Plan Testing Ticket",
+                    "description": "Evidence showing ticket has been created for testing the backup plan",
+                    "collectedDate": "2025-06-25 18:35:43.137000+00:00",
+                    "system": "Service Now",
+                    "collectionType": "manual",
+                    "url": "https://dev.securecloud.anitian.com/evidence/KSI-RPL-04?ksi=KSI-RPL&name=Recovery+Planning&ksiDesc=A+secure+cloud+service+offering+will+define,+maintain,+and+test+incident+response+plan(s)+and+recovery+capabilities+to+ensure+minimal+service+disruption+and+data+loss+during+incidents+and+contingencies.&description=Regularly+test+the+capability+to+recover+from+incidents+and+contingencies.&sortDir=ASC&sortCol=Audit+Status&search=&evidenceId=KSI-RPL-04_KSI-INR-03_INCIDENCE_RESPONSE_BACKUP_TESTING_TICKET",
+                    "auditStatus": {
+                        "username": "pete.dudek@a-lign.com",
+                        "status": "PARTIAL",
+                        "lastUpdatedTimestamp": {
+                            "$date": "2025-06-26T17:46:06.438Z"
+                        },
+                        "hash": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
