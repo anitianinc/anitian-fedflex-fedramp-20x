@@ -35,7 +35,7 @@ We believe this submission clearly demonstrates FedFlex’s readiness to help Sa
 
   
 ## Submission Details 
-Our final assessment is available to the FedRAMP PMO through our Insights platform. However, in the spirit of open collaboration and transparency, we include here a public version of our assessment file, the file schema, and the letter of attestation from our 3-PAO partner A-LIGN. 
+Our final assessment is available to the FedRAMP PMO through our Insights platform. However, in the spirit of open collaboration and transparency, we include here a public version of our assessment file, the file schema, and a letter of attestation from our 3PAO partner A-LIGN. 
 
 | File | Description |
 |----------|----------|
